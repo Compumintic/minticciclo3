@@ -1,2 +1,4 @@
 Propuestas de mejora
 =Desarrollo de herramienta
+cambio de rama dejo las historias de usuario en el master como guia, si 
+deciden borrar me avisan.
