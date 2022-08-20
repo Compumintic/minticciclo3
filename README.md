@@ -7,3 +7,5 @@ Ivan Rodriguez Agudelo,
 Joan Ruiz Ariza,
 Carlos Duque Toloza.
 
+###en este proyecto nuestro lrnguaje de programacion sera java
+
