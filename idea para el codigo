@@ -1,0 +1,36 @@
+package Compumundohipermegared;
+
+import java.util.Objects;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+class Empresa {
+
+  private @Id @GeneratedValue Long id;
+  private String nombre;
+  private String direccion;
+  private String telefono;
+  private String nit;
+
+  Empresa() {}
+
+  Empresa(String nombre, String direcion,String telefono,String nit) {
+
+    this.nombre = nombre ;
+    this.direccion = direccion;
+    this.telefono = telefono;
+    this.nit = nit
+    
+    public boolean equals(Object o) {
+
+    if (this == o)
+      return true;
+    if (!(o instanceof Empresa))
+      return false;
+    Empresa empresa = (Empresa) o;
+    return Objects.equals(this.id, empresa.id) && Objects.equals(this.nombre, Empresa.nombre)
+        && Objects.equals(this.direccion, Empresa.direccion);
+  }
