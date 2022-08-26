@@ -5,8 +5,8 @@ import java.util.Date;
 public class Employee {
     private long id;
     private String email;
-    /*private Profile profile;
-    private Enum_RoleName enum_roleName;*/
+    private Profile profile;
+    private Enum_RoleName enum_roleName;
     private Enterprise enterprise;
     private Transaction transactions;
     private Date updatedAt;
