@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: mintic.ciclo3.gestionempresa.GestionempresaApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.312 s - in mintic.ciclo3.gestionempresa.GestionempresaApplicationTests
