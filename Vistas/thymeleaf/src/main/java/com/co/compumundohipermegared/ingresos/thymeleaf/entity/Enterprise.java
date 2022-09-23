@@ -1,34 +1,26 @@
-package mintic.ciclo3.gestionempresa.entity;
+package com.co.compumundohipermegared.ingresos.thymeleaf.entity;
 
 import java.util.Date;
 
 public class Enterprise {
-
     private long id;
     private String name;
     private String document;
     private String phone;
     private String address;
-    //private User users [];
-    //private Transaction transactions [];
     private Date createdAt;
     private Date updatedAt;
 
-    //Constructor
-    public Enterprise(long id, String name, String document, String phone,
-                      String address /*, Date createdAt, Date updatedAt*/) {
+    public Enterprise(long id, String name, String document, String phone, String address) {
         this.id = id;
         this.name = name;
         this.document = document;
         this.phone = phone;
         this.address = address;
-        /*this.createdAt = createdAt;
-        this.updatedAt = updatedAt;*/
     }
 
-    //Methods getter and setter
     public long getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(long id) {
@@ -36,7 +28,7 @@ public class Enterprise {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -44,7 +36,7 @@ public class Enterprise {
     }
 
     public String getDocument() {
-        return document;
+        return this.document;
     }
 
     public void setDocument(String document) {
@@ -52,7 +44,7 @@ public class Enterprise {
     }
 
     public String getPhone() {
-        return phone;
+        return this.phone;
     }
 
     public void setPhone(String phone) {
@@ -60,7 +52,7 @@ public class Enterprise {
     }
 
     public String getAddress() {
-        return address;
+        return this.address;
     }
 
     public void setAddress(String address) {
@@ -68,7 +60,7 @@ public class Enterprise {
     }
 
     public Date getCreatedAt() {
-        return createdAt;
+        return this.createdAt;
     }
 
     public void setCreatedAt(Date createdAt) {
@@ -76,26 +68,14 @@ public class Enterprise {
     }
 
     public Date getUpdatedAt() {
-        return updatedAt;
+        return this.updatedAt;
     }
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
     }
 
-    //toString
-    @Override
     public String toString() {
-        return "Enterprise{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", document='" + document + '\'' +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                ", createdAt=" + createdAt +
-                ", updatedAt=" + updatedAt +
-                '}';
+        return "Enterprise{id=" + this.id + ", name='" + this.name + "', document='" + this.document + "', phone='" + this.phone + "', address='" + this.address + "', createdAt=" + this.createdAt + ", updatedAt=" + this.updatedAt + "}";
     }
-
-
 }
